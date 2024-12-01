@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.balance-section h1 {
+  margin: 10px 0;
+}
+
+.inc-exp {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 5px;
+}
+
+.inc-exp div {
+  width: 45%;
+  padding: 10px -1px;
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+#income {
+  color: green;
+}
+
+#expense {
+  color: red;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.history-list li {
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-left: 5px solid;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.history-list li.income {
+  border-color: green;
+}
+
+.history-list li.expense {
+  border-color: red;
+}
+
+form input {
+  width: 94%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #4e9af1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #3b82d0;
+}
+
+.day {
+  position: absolute;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  margin: 38rem auto 0;
+}
