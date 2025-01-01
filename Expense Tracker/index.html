@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="day">🚀 Day 13 of 30DaysOf30Projects</h2>
+
+    <div class="container">
+      <h2>💸 Expense Tracker</h2>
+
+      <div class="balance-section">
+        <h4>Your Balance</h4>
+        <h1 id="balance">0 PKR</h1>
+      </div>
+
+      <div class="inc-exp">
+        <div>
+          <h4>Income</h4>
+          <p id="income">+0 PKR</p>
+        </div>
+        <div>
+          <h4>Expense</h4>
+          <p id="expense">-0 PKR</p>
+        </div>
+      </div>
+
+      <ul id="history" class="history-list">
+        <!-- Transactions appear here -->
+      </ul>
+
+      <form id="transaction-form">
+        <input type="text" id="desc" placeholder="Transaction name" required />
+        <input type="number" id="amt" placeholder="Amount (+/-)" required />
+        <button type="submit">Add Transaction</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
