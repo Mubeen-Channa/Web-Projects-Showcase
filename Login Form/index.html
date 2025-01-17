@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2 class="day">🚀 Day 09 of 30DaysOf30Projects</h2>
+
+  <div class="form-container">
+    <form id="contactForm">
+      <h2 class="form-title">Contact Us</h2>
+
+      <!-- Step 1 -->
+      <div class="form-step" id="step1">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+          <small class="error" id="nameError"></small>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+          <small class="error" id="emailError"></small>
+        </div>
+
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" maxlength="200" required></textarea>
+          <small class="counter"><span id="charCount">0</span>/200</small>
+          <small class="error" id="messageError"></small>
+        </div>
+
+        <button type="button" class="next-btn">Next</button>
+      </div>
+
+      <!-- Step 2 Captcha & Submit -->
+      <div class="form-step" id="step2" style="display: none">
+        <div class="input-group">
+          <label id="captchaQuestion">Solve: 0 + 0 = ?</label>
+          <input type="text" id="captchaAnswer" required />
+          <small class="error" id="captchaError"></small>
+        </div>
+
+        <div class="buttons">
+          <button type="button" class="back-btn">Back</button>
+          <button type="submit" id="submitBtn">Submit</button>
+        </div>
+      </div>
+
+      <div class="loading" id="loading" style="display: none"> ⏳ Sending... </div>
+    </form>
+  </div>
+
+  <!-- Success -->
+  <div class="modal" id="successModal">
+    <div class="modal-content">
+      <p>✅ Message Sent Successfully!</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
