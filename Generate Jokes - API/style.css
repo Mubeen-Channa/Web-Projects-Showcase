@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background: linear-gradient(1deg, #81f1f9, #67a5fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    text-align: center;
+    width: 50rem;
+    max-width: 500px;
+}
+
+.emoji {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#jokePera {
+    color: #4c4c4c;
+    font-size: 18px;
+    margin-bottom: 30px;
+    min-height: 60px;
+    transition: all 0.3s ease;
+}
+
+button {
+    background: #ffffff30;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    color: #6e6e6e;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    backdrop-filter: blur(20px);
+}
+
+button:hover {
+    background: rgba(115, 161, 185, 0.4);
+    transform: scale(1.1);
+}
+
+.day {
+    position: absolute;
+    color: #4c4c4c;
+    font-size: 1rem;
+    text-align: center;
+    margin: 37rem auto 0;
+  }
