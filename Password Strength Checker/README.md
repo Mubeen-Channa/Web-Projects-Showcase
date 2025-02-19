@@ -1,43 +1,39 @@
-# 🔒 Password Strength Checker
+# 🎲 Random Number Generator
 
-A simple and interactive **Password Strength Checker** built using **HTML, CSS, and JavaScript**.  
-It provides real-time feedback on the strength of a password based on common security rules.
+🚀 **Day 01 of 30DaysOf30Projects**
 
-<br>
-
-## 💡 Features
-
-- 🔐 Real-time password evaluation  
-- 📊 Strength levels: Weak, Medium, Strong  
-- ✅ Checks for:
-  - Minimum length
-  - Uppercase & lowercase letters
-  - Numbers
-  - Special characters  
-- 🎨 Modern, responsive design with gradient background
+This is a simple web app that generates a random number between 1 and 100 when you click the button. It's built using **HTML**, **CSS**, and **JavaScript**.
 
 <br>
 
-## 📁 Files Included
+## ✨ Features
 
-- `index.html` – Core HTML structure and layout  
-- `style.css`  – Styling and responsive design for the UI  
-- `script.js`  – JavaScript logic for checking password strength in real-time
-
-<br>
-
-## 🚀 How to Run
-
-1. Clone or download this repository  
-2. Open `index.html` in your browser  
-3. Start typing a password to check its strength!
+- Generates a random number between 1–100
+- Instant display on button click
+- Clean and minimal UI
 
 <br>
 
-## 📸 Preview
+## 🚀 How to Use
 
-> ![Password Strength Checker]()
+1. Open the webpage in any browser.
+2. Click the **"Generate Random Number"** button.
+3. A new random number will be displayed below the button.
 
 <br>
 
-> 🔗 Made by ❤ [Mubeen Channa](https://github.com/Mubeen-Channa)
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+
+<br>
+
+## 📸 Screenshot
+
+![Random Number Generator](Random%20Number%20Generator%20Screenshot.png)
+
+<br>
+
+Feel free to customize it with your own screenshot or add deployment links!
